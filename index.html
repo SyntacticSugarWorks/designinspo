@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Design Inspo Board</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #0f0f10;
+      color: #f2f2f2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 24px;
+      box-sizing: border-box;
+    }
+    main {
+      max-width: 560px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 8px;
+    }
+    p {
+      color: #b5b5b8;
+      line-height: 1.6;
+      font-size: 1.05rem;
+    }
+    .badge {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 8px 16px;
+      border: 1px solid #3a3a3d;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      color: #b5b5b8;
+    }
+    .palette {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin: 28px 0;
+    }
+    .swatch {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="palette">
+      <span class="swatch" style="background:#6b5bff"></span>
+      <span class="swatch" style="background:#3ac1e0"></span>
+      <span class="swatch" style="background:#7bd389"></span>
+      <span class="swatch" style="background:#f2f2f2"></span>
+      <span class="swatch" style="background:#0f0f10;border:1px solid #3a3a3d"></span>
+    </div>
+    <h1>Design Inspo Board</h1>
+    <p>
+      A Chrome extension for saving design inspiration as you browse.
+      Save any page and it automatically extracts the color palette and
+      fonts used, so you never lose track of what caught your eye.
+    </p>
+    <div class="badge">Coming soon to the Chrome Web Store</div>
+  </main>
+</body>
+</html>
